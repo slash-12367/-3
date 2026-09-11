@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кондитеры</title>
+    <link type="image/x-icon" href="img/logo.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="style.css"> 
+    <script type="text/javascript" src="app.js" defer=""></script>
+
+</head>
+<body>
+
+  <header>
+
+    <div class="logo">
+        <img src="img/logo.png">
+    </div>
+
+    <h1 class="site-title">Профессиональные кондитеры</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#section1">О нас</a></li>
+            <li><a href="#section2">Рецепты</a></li>
+            <li><a href="#section3">Галерея</a></li>
+        </ul>
+    </nav>
+
+  </header>
+    
+
+
+    <div class="slider-container">
+        <div class="slider">
+          <img src="img/1.webp"  height="200px" onclick="openFullscreenImage(this)">
+          <img src="img/2.jpg"  height="200px" onclick="openFullscreenImage(this)">
+          <img src="img/3.webp"  height="200px" onclick="openFullscreenImage(this)">
+          <img src="img/4.jpg"  height="200px" onclick="openFullscreenImage(this)">
+        </div>
+        <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+        <button class="next-button" aria-label="Посмотреть следующий слайд">&gt</button>  
+    </div>
+
+    <section id="section1">
+
+      <div class="text_o_nas">
+        <h1>О кондитере:</h1>
+        <p>Добро пожаловать на сайт профессиональных кондитера! Мы рады приветствовать вас в мире сладких удовольствий и кулинарного искусства. Здесь вы найдете не только рецепты, но и вдохновение для создания своих собственных кулинарных шедевров.
+        </p>
+        <p>Здесь нету юмора поскольку создатель этого сайта устал придумывать шутки.
+        </p>
+        <p>Почему у нас стоит заказывать? Мы "Любим готовить" как сказал мне сказать наш маркетолог. Его стоит уволить.
+        </p>
+      </div>
+
+
+    </section>
+
+    <section id="section2" class="video-recipes" aria-label="Видео и рецепты">
+      <div class="video-block">
+        <h2>Видео с рецептом</h2>
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/KV1z7aMqg8M"
+            title="Видео рецепт"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <div class="recipe-grid">
+        <article class="recipe-card">
+          <h3>Рецепт 1: Творожные сырники</h3>
+          <p>Ингредиенты:
+
+200 г творога — желательно фермерского, потому что промышленный творог уже продал твоё детство корпорациям.
+1 яйцо — от курицы, которая якобы была счастлива.
+2 ст. л. муки — без глютена, если ты способен позволить себе эту роскошь.
+1 ст. л. сахара — или заменитель сахара, если ты боишься сахара больше, чем налоговой.
+Щепотка соли — натуральной, органической и лично благословлённой блогером.
+Масло — кокосовое, авокадовое или любое другое, за которое можно переплатить.
+Приготовление:
+
+Смешай творог с яйцом, мукой, сахаром и солью.
+
+Если масса получилась слишком жидкой — добавь муки. Если слишком плотной — купи новый творог. Проблема не в тебе. Проблема в качестве продукта.
+
+Сформируй сырники и обжарь на среднем огне до золотистой корочки.
+
+Не накрывай крышкой. Крышка символизирует ограничения.
+
+Подавай с вареньем. Лучше домашним — его отсутствие отлично напоминает, насколько далеко мы ушли от традиционных ценностей.</p>
+        </article>
+
+        <article class="recipe-card">
+          <h3>Рецепт 2: Шоколадный мусс</h3>
+          <p>Ингредиенты:
+
+100 г тёмного шоколада — чем дороже, тем меньше вопросов к вашей жизни.
+200 мл сливок — 33%, потому что 30% уже звучит как бедность.
+2 яйца — органических, разумеется.
+1 ст. л. сахара — единственная доступная роскошь.
+Приготовление:
+
+Растопите шоколад. Взбейте сливки и яйца, смешайте с шоколадом.
+
+Разложите по маленьким стаканам — маленькая порция лучше всего продаётся как «осознанность».
+
+Охладите 2 часа.
+
+Украсьте тремя ягодами, сфотографируйте и выложите в соцсети.
+
+Теперь вы не просто поели. Вы инвестировали в себя.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="section3">
+      
+      <div class="column-container">
+
+        <div class="column">
+            <h2>Шоколадный мусс «Баланс»</h2>
+            <img src="img/5.webp" class="pic" onclick="openFullscreenImage(this)">
+            <p>Нежный мусс из тёмного шоколада со сливками и лёгкой горчинкой. Воздушная текстура и насыщенный вкус создают ощущение маленькой паузы посреди насыщенного дня. Отличный выбор, когда хочется немного удовольствия, но желательно без лишнего чувства вины.</p>
+        </div>
+
+        <div class="column">
+            <h2>Творожный чизкейк «Новая версия»</h2>
+            <img src="img/6.webp" class="pic" onclick="openFullscreenImage(this)">
+            <p>Нежный творожный чизкейк на хрустящей песочной основе с ягодным соусом. Классический вкус получает современное прочтение — знакомое, но достаточно обновлённое, чтобы снова почувствовать себя частью чего-то нового.</p>
+        </div>
+
+        <div class="column">
+            <h2>Лимонный тарт «Лёгкость»</h2>
+            <img src="img/7.webp" class="pic" onclick="openFullscreenImage(this)">
+            <p>Хрустящая основа, нежный лимонный крем и воздушная меренга. Яркая цитрусовая кислинка хорошо сочетается с мягкой сладостью, создавая лёгкий и освежающий десерт. Почти как маленький отпуск, только без необходимости куда-либо ехать.</p>
+        </div>
+
+      </div>
+
+    <div class="column-container">
+
+        <div class="column">
+            <h2>Карамельный крем «Удовольствие»</h2>
+            <img src="img/8.jpg" class="pic" onclick="openFullscreenImage(this)">
+            <p>Воздушный сливочный крем с солёной карамелью, обжаренным орехом и тонкой хрустящей текстурой. Сочетание сладкого и солёного делает десерт насыщенным, но не слишком тяжёлым. Идеальный способ позволить себе немного роскоши, не называя это роскошью.
+              </p>
+        </div>
+
+        <div class="column">
+            <h2>Ягодная панна-котта «Лето»</h2>
+            <img src="img/9.webp" class="pic" onclick="openFullscreenImage(this)">
+            <p>Нежная ванильная панна-котта с сезонными ягодами и лёгким ягодным соусом. Мягкая сливочная текстура и свежая кислинка напоминают о тёплых вечерах и простых радостях. Особенно хороша в те дни, когда лето приходится создавать самостоятельно. </p>
+        </div>
+
+        <div class="column">
+            <h2>Яблочный крамбл «Дом»</h2>
+            <img src="img/10.jpg" class="pic" onclick="openFullscreenImage(this)">
+            <p>Запечённые яблоки с корицей под золотистой хрустящей крошкой из овсяных хлопьев и сливочного масла. Тёплый, ароматный и немного старомодный десерт, который приятно напоминает о домашней кухне. Иногда именно этого и хочется — чего-то, что не требует новой версии.</p>
+        </div>
+
+    </div>
+
+    <div id="fullscreen-container" class="hidden">
+      <span class="close-button" onclick="closeFullscreenImage()">&times;</span>
+      <img src="" alt="Полноэкранное изображение" id="fullscreen-image">
+    </div>
+
+    </section>
+
+    <button id="scrollToTopButton">Вверх</button>
+
+
+</body>
+
+<footer style="width: 100%;">
+
+  <div class="social-icons">
+    <a href="https://web.telegram.org/" class="social-icon"><img src="img/tg.webp" alt="Tg"></a>
+    <a href="https://m.vk.com/" class="social-icon"><img src="img/vk.png" alt="Vk"></a>
+    <a href="https://www.instagram.com/" class="social-icon"><img src="img/ig.png" alt="Ig"></a>
+  </div>
+  
+</footer>
+
+
+</html>
